@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 
-pipe = pickle.load(open('xgbmodel.pkl','rb'))
+pipe = pickle.load(open('xgmodel.pkl','rb'))
 st.title('Physics Based Temp Predictor')
 
 
